@@ -9,6 +9,7 @@ else:
 
 #with function
 def pos_neg_zero(num):
+    """Checks whether a number is positive, negative, or zero"""
     if num > 0:
         print(f"The {num} is Positive")
     elif num < 0:

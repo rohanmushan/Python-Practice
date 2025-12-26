@@ -7,6 +7,7 @@ print(f"The product of {num1} and {num2} is: {product}")
 
 
 #with function
+"""Returns the product/Multiplication of two numbers"""
 def product(num1, num2):
     prod = num1 * num2
     print(f"The product of {num1} and {num2} is {prod}")

@@ -21,6 +21,7 @@ else:
 
 #using function
 def temp_conversion(celsius, fehrenheit):
+    """Converts temperature between Celsius and Fahrenheit"""
     print("Choose the conversion you want to perform:")
     print("1. Celsius to Fahrenheit")
     print("2. Fahrenheit to Celsius")

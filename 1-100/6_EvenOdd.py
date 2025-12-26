@@ -9,6 +9,7 @@ import random
 
 #with function
 def even_odd(num):
+    """Checks whether a number is even or odd and also generates random test cases"""
     if num % 2 == 0:
         print(f"The {num} is Even")
     else:

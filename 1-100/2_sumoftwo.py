@@ -6,6 +6,7 @@ print(f"The sum of {num1} and {num2} is: {sum}")
 
 # with function
 def addition(num1, num2):
+    """Returns the sum of two numbers"""
     sum = num1 + num2
     print(f"The sum of {num1} and {num2} is {sum}")
 

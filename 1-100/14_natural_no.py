@@ -6,6 +6,7 @@ for i in range(1, N+1):
  
 #with function
 def natural_numbers(n):
+    """Returns the first N natural numbers"""
     print(f"The first {n} natural numbers are:")
     for i in range(1, n+1):
         print(i)

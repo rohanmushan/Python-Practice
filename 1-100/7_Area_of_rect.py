@@ -10,6 +10,7 @@ print(f"The area of the rectangle is: {area}")
 #with function
 
 def area_rect(l, w):
+    """Returns the area of a rectangle given length and width and also generates random test cases"""
     return l * w
     print(f"Area of rect is {result}")
 l = float(input("Enter Length of Rectangle: "))

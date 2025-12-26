@@ -14,6 +14,7 @@ else:
 #with function
 
 def largest_of_three(num1, num2, num3):
+    """Returns the largest of three numbers"""
     if(num1 > num2 and num1 > num3):
         print(f"{num1} is the largest")
     elif(num2 > num1 and num2 > num3):

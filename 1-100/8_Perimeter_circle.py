@@ -6,6 +6,7 @@ print(f"The circumference of the circle is: {circumference}")
 #with function
 
 def perimeter_circle(r):
+    """Returns the perimeter of a circle given its radius"""
     circumference = 2 * 3.14 * r 
     print(f"The perimeter of the circle with radius {r} is: {circumference}")
 

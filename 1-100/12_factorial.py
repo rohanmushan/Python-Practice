@@ -13,6 +13,8 @@ else:
 
 #with function
 def factorial(n):
+    """The factorial of a number n is the product of all positive integers from 1 to n
+        5! = 5 * 4 * 3 * 2 * 1 = 120"""
     if n < 0:
         print("Factorial is not defined for the non zero numbers")
     elif n == 0 or n == 1:

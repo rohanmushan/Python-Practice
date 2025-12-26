@@ -7,6 +7,7 @@ for i in range(2, N+1,2):
 
 #with function
 def even_numbers(n):
+    """Returns even numbers from 1 to N"""
     print(f"The even numbers from 1 to {n} are:")
     for i in range(2, n+1, 2):
         print(i)

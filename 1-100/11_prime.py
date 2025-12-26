@@ -12,6 +12,7 @@ else:
 
 # with function
 def prime(num):
+    """A prime number is a number greater than 1 that has only two factors: 1 and itself."""
     if num > 1:
         for i in range(2, num):
             if(num % i == 0):

@@ -9,6 +9,8 @@ else:
 
 #with function
 def is_palindrome(number):
+    """A palindrome is a number or word that reads the same forward and backward
+        like 12321, madam"""
     num_str = str(number)
     reversed_str = num_str[::-1]
     if num_str == reversed_str:
